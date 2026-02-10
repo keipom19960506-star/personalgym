@@ -1,28 +1,173 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>完全個室レンタルジム</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>初心者専門パーソナルジム</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family: "Arial", sans-serif;
+    background:#b7e45f;
+}
+
+.container{
+    max-width:1000px;
+    margin:40px auto;
+    background:#fff;
+    border-radius:30px;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.section{
+    border:2px solid #9bd650;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:40px;
+}
+
+.section-title{
+    background:#9bd650;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.fee-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:18px;
+    margin:8px 0;
+}
+
+.plan-title{
+    background:#9bd650;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-size:20px;
+    margin:30px 0 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.box{
+    border:2px solid #b7e45f;
+    border-radius:10px;
+    text-align:center;
+    padding:15px;
+}
+
+.desc{
+    border:2px solid #b7e45f;
+    border-radius:10px;
+    padding:15px;
+    font-size:15px;
+}
+
+.note{
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    margin-top:10px;
+}
+</style>
 </head>
 
 <body>
 
-<h1>完全個室レンタルジム</h1>
-<p>トレーナー・個人利用向け｜予約制・時間貸し</p>
+<div class="container">
 
-<h2>こんな人向け</h2>
-<ul>
-  <li>パーソナルトレーナー</li>
-  <li>フリーランス指導者</li>
-  <li>個人トレーニング</li>
-</ul>
+<h1>初心者専門パーソナルジム</h1>
 
-<h2>特徴</h2>
-<p>人目を気にせず集中できる完全個室空間。固定費ゼロで指導場所が持てます。</p>
+<div class="section">
+    <div class="section-title">料金表</div>
 
-<h2>お問い合わせ</h2>
-<p>こちらからお問い合わせください</p>
+    <div class="fee-row"><span>入会金</span><span>¥20,000</span></div>
+    <div class="fee-row"><span>事務手数料</span><span>¥3,000</span></div>
 
+    <!-- 短期集中 -->
+    <div class="plan-title">短期集中ダイエットプラン</div>
+    <div class="grid">
+        <div class="box">総額<br>¥237,600</div>
+        <div class="box">回数<br>24回</div>
+        <div class="box">時間<br>75分/回</div>
+    </div>
+    <div class="desc">
+        ・短期的な目標がある方にオススメ<br>
+        ・週2回×4ヶ月<br>
+        ・食事指導つき（質問し放題）<br>
+        ・24時間以内キャンセル＝1回消化
+    </div>
+
+    <!-- じっくり -->
+    <div class="plan-title">じっくり大幅ダイエットプラン</div>
+    <div class="grid">
+        <div class="box">総額<br>¥460,800</div>
+        <div class="box">回数<br>48回</div>
+        <div class="box">時間<br>75分/回</div>
+    </div>
+    <div class="desc">
+        ・10kg以上痩せたい方向け<br>
+        ・週2回×6ヶ月<br>
+        ・食事指導つき<br>
+        ・24時間以内キャンセル＝1回消化
+    </div>
+
+    <!-- S字 -->
+    <div class="plan-title">S字ボディープラン</div>
+    <div class="grid">
+        <div class="box">総額<br>¥228,000</div>
+        <div class="box">回数<br>24回</div>
+        <div class="box">時間<br>75分/回</div>
+    </div>
+    <div class="desc">
+        ・くびれ＆ヒップライン形成<br>
+        ・週2回×4ヶ月<br>
+        ・食事指導なし（低価格）<br>
+        ・24時間以内キャンセル＝1回消化
+    </div>
+
+    <!-- 継続 -->
+    <div class="plan-title">継続プラン</div>
+    <div class="grid">
+        <div class="box">¥11,000<br>1回</div>
+        <div class="box">¥152,000<br>16回</div>
+        <div class="box">75分/回</div>
+
+        <div class="box">¥216,000<br>24回</div>
+        <div class="box">¥272,000<br>32回</div>
+        <div class="box">75分/回</div>
+    </div>
+
+    <div class="desc">
+        ・セッション内容オーダーメイド<br>
+        ・継続プランは食事指導込み<br>
+        ・24時間以内キャンセル＝1回消化
+    </div>
+
+    <div class="note">
+        ※当日のご入会で入会金 ¥20,000 無料
+    </div>
+
+</div>
+
+</div>
 </body>
 </html>
